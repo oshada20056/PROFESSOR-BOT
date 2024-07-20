@@ -1,23 +1,21 @@
 class script(object):  
-    START_TXT = """<b>✨ Hᴇʟʟᴏ {user}.
+    START_TXT = """<b>✨ 𝙃𝙚𝙡𝙡𝙤𝙬 𝙃𝙤𝙢𝙞𝙚 {user}.
 
-Mʏ Nᴀᴍᴇ Is {bot}.
+ {bot}.
 
 I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ</b>"""
     
     HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
 
-    ABOUT_TXT = """<b>✯ Mʏ ɴᴀᴍᴇ: {}
-✯ Dᴇᴠᴇʟᴏᴩᴇʀ: <a herf=https://t.me/Mr_MKN>ᴍʀ.ᴍᴋɴ ᴛɢ</a>
+    ABOUT_TXT = """<b>𝙉𝙖𝙢𝙚: {}
+✯ Dᴇᴠᴇʟᴏᴩᴇʀ: Error
 ✯ Cᴏᴅᴇᴅ Oɴ: ᴩʏᴛʜᴏɴ/ᴩʏʀᴏɢʀᴀᴍ
 ✯ Mʏ DᴀᴛᴀBᴀꜱᴇ: ᴍᴏɴɢᴏ-ᴅʙ
-✯ Mʏ Sᴇʀᴠᴇʀ: ᴀɴʏᴡʜᴇʀᴇ
-✯ Mʏ Vᴇʀꜱɪᴏɴ: ᴩʀᴏꜰᴇꜱꜱᴏʀ-ʙᴏᴛ ᴠ4.5.0</b>"""
+✯ Mʏ Sᴇʀᴠᴇʀ: Error
+✯ Mʏ Vᴇʀꜱɪᴏɴ: Error</b>"""
    
     SOURCE_TXT = """<b>NOTE:</b>
-- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://github.com/MrMKN/PROFESSOR-BOT>𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑-𝐁𝐎𝐓</a>
-
-<b>ᴅᴇᴠ: <a herf=https://t.me/Mr_MKN>ᴍʀ.ᴍᴋɴ ᴛɢ</a></b>"""
+Error"""
 
     FILE_TXT = """<b>➤ Hᴇʟᴘ Fᴏʀ Fɪʟᴇ Sᴛᴏʀᴇ</b>
 
@@ -27,8 +25,7 @@ I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ
 ➪ /link › Rᴇᴘʟʏ Tᴏ Aɴʏ Mᴇᴅɪᴀ Tᴏ Gᴇᴛ Tʜᴇ Lɪɴᴋ 
 ➪ /batch › Tᴏ Cʀᴇᴀᴛᴇ Lɪɴᴋ Fᴏʀ Mᴜʟᴛɪᴘʟᴇ Mᴇᴅɪᴀ
 
-<b>⪼ EG:</b>
-</code>/batch https://t.me/mkn_bots_updates/1 https://t.me/mkn_bots_updates/10</code>"""
+<b>⪼ EG:</b>"""
   
     FILTER_TXT = "Sᴇʟᴇᴄᴛ Wʜɪᴄʜ Oɴᴇ Yᴏᴜ Wᴀɴᴛ...✨"
     
@@ -126,29 +123,29 @@ Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
 • /clear_junk_group - Cʟᴇᴀʀ Aᴅᴅ Rᴇᴍᴏᴠᴇᴅ Gʀᴏᴜᴘ Oʀ Dᴇᴀᴄᴛɪᴠᴀᴛᴇᴅ Gʀᴏᴜᴘs Oɴ Dʙ"""
 
 
-    STATUS_TXT = """<b>◉ ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ: <code>{}</code>
-◉ ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ: <code>{}</code>  
-◉ ᴛᴏᴛᴀʟ ᴄʜᴀᴛꜱ: <code>{}</code>
-◉ ᴜꜱᴇᴅ ᴅʙ ꜱɪᴢᴇ: <code>{}</code>
-◉ ꜰᴇᴇᴇ ᴅʙ ꜱɪᴢᴇ: <code>{}</code></b>"""
+    STATUS_TXT = """<b>𝙁𝙞𝙡𝙚 𝙄𝙣 𝘿𝙖𝙩𝙖𝙗𝙖𝙨𝙚: <code>{}</code>
+⚡𝙐𝙨𝙚𝙧 𝘾𝙤𝙪𝙣𝙩: <code>{}</code>  
+⚡𝙁𝙞𝙡𝙚: <code>{}</code>
+⚡𝙎𝙩𝙤𝙧𝙚 𝘿𝙖𝙩𝙖 𝘽𝙖𝙨𝙚 𝙎𝙞𝙯𝙚: <code>{}</code>
+⚡𝙁𝙚𝙚𝙙 𝘿𝙖𝙩𝙖 𝘽𝙖𝙨𝙚 𝙎𝙞𝙯𝙚: <code>{}</code></b>"""
 
-    LOG_TEXT_G = """<b>#ɴᴇᴡ_ɢʀᴏᴜᴩ
+    LOG_TEXT_G = """<b>#𝙁𝙧𝙚𝙨𝙝_𝙂𝙧𝙤𝙪𝙥
 
-◉ ɢʀᴏᴜᴩ: {a}
-◉ ɢ-ɪᴅ: <code>{b}</code>
-◉ ʟɪɴᴋ: @{c}
-◉ ᴍᴇᴍʙᴇʀꜱ: <code>{d}</code>
-◉ ᴀᴅᴅᴇᴅ ʙʏ: {e}
+⚡ ɢʀᴏᴜᴩ: {a}
+⚡ ɢ-ɪᴅ: <code>{b}</code>
+⚡ ʟɪɴᴋ: @{c}
+⚡ ᴍᴇᴍʙᴇʀꜱ: <code>{d}</code>
+⚡ ᴀᴅᴅᴇᴅ ʙʏ: {e}
 
-◉ ʙʏ: @{f}</b>"""
+⚡ ʙʏ: @{f}</b>"""
   
     LOG_TEXT_P = """#ɴᴇᴡ_ᴜꜱᴇʀ
     
-◉ ᴜꜱᴇʀ-ɪᴅ: <code>{}</code>
-◉ ᴀᴄᴄ-ɴᴀᴍᴇ: {}
-◉ ᴜꜱᴇʀɴᴀᴍᴇ: @{}
+⚡ ᴜꜱᴇʀ-ɪᴅ: <code>{}</code>
+⚡ ᴀᴄᴄ-ɴᴀᴍᴇ: {}
+⚡ ᴜꜱᴇʀɴᴀᴍᴇ: @{}
 
-◉ ʙʏ: @{}</b>"""
+⚡ ʙʏ: @{}</b>"""
   
     GROUPMANAGER_TXT = """<b>Hᴇʟᴩ Fᴏʀ GʀᴏᴜᴩMᴀɴᴀɢᴇʀ</b>
 
@@ -222,10 +219,10 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.
   
     IMDB_TEMPLATE = """<b>Qᴜᴇʀʏ: {query}</b>
 
-🏷 Tɪᴛʟᴇ: <a href={url}>{title}</a>
-🎭 Gᴇɴʀᴇꜱ: {genres}
-📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>
-🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10"""
+🏷 𝙏𝙞𝙩𝙡𝙚: <a href={url}>{title}</a>
+🎭 𝙂𝙚𝙣𝙚𝙧𝙨: {genres}
+📆 𝙔𝙚𝙖𝙧: <a href={url}/releaseinfo>{year}</a>
+🌟 𝙍𝙖𝙩𝙞𝙣𝙜: <a href={url}/ratings>{rating}</a>/10"""
    
   
  
